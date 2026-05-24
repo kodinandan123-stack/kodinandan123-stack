@@ -4,24 +4,24 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/nandan-kodi-53b66824b/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Nandan%20Kodi-blue?style=for-the-badge&logo=linkedin" />
-  </a>a>
+  </a>
     <img src="https://img.shields.io/badge/Open%20to%20Work-Remote%20%7C%20On--site%20%7C%20Hybrid-brightgreen?style=for-the-badge" />
           <img src="https://komarev.com/ghpvc/?username=kodinandan123-stack&style=for-the-badge&color=blueviolet" />
-</p>p
+</p>
 
 ---
 
 ## 🧑‍💻 About Me
 
 - 🎓 Pursuing **MSc in Artificial Intelligence** at **De Montfort University, United Kingdom**
-- - 🌍 Based in the **United Kingdom**
-  - - 🤖 Passionate about **Machine Learning, Deep Learning, and Data Science**
-    - - ☁️ Experienced in **Cloud Computing (AWS), RPA, and Enterprise App Development**
-      - - 🔭 Currently building projects in AI/ML and sharpening my full-stack skills
-        - - 💬 Ask me about **Python, Machine Learning, AWS, or Networking**
-          - - 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/nandan-kodi-53b66824b/)
+- 🌍 Based in the **United Kingdom**
+  - 🤖 Passionate about **Machine Learning, Deep Learning, and Data Science**
+    - ☁️ Experienced in **Cloud Computing (AWS), RPA, and Enterprise App Development**
+      🔭 Currently building projects in AI/ML and sharpening my full-stack skills
+        - 💬 Ask me about **Python, Machine Learning, AWS, or Networking**
+          - 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/nandan-kodi-53b66824b/)
            
-            - ---
+            ---
 
             ## 🛠️ Tech Stack
 
