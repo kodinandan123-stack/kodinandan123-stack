@@ -71,6 +71,7 @@
 | [💬 Chat App](https://github.com/kodinandan123-stack/Chat-App) | Real-time chat application | HTML, CSS, JS |
 | [🌤️ Weather App](https://github.com/kodinandan123-stack/Weather-App) | Live weather data fetcher | HTML, CSS, JS |
 | [✅ Task Manager App](https://github.com/kodinandan123-stack/Task-Manager-App) | Task organizer with CRUD | HTML, CSS, JS |
+| 💰 [Personal Finance Tracker](https://github.com/kodinandan123-stack/Personal-Finance-Tracker) | Income, expense & savings tracker | React, Node.js, MongoDB |
 
 > 🚧 More AI/ML projects coming soon as part of my MSc coursework!
 
