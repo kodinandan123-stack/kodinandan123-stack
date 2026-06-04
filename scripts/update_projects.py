@@ -8,6 +8,14 @@ USERNAME = os.environ.get("GITHUB_USERNAME", "kodinandan123-stack")
 # Repos to always skip (profile repo itself + empty/non-project repos)
 SKIP_REPOS = {USERNAME, "daily-log"}
 
+# Custom descriptions for repos that don't have one set on GitHub
+CUSTOM_DESCRIPTIONS = {
+    "Chat-App": "Real-time chat application",
+    "Weather-App": "Live weather data fetcher",
+    "Task-Manager-App": "Task organizer with CRUD",
+    "Personal-Finance-Tracker": "Income, expense & savings tracker",
+}
+
 # Emoji map by language
 LANG_EMOJI = {
     "Python": "🐍",
@@ -34,7 +42,7 @@ def get_repos():
 def build_row(repo):
     name = repo["name"]
     url = repo["html_url"]
-    description = repo.get("description") or "No description"
+    description = repo.get("description") or CUSTOM_DESCRIPTIONS.get(name, "No description yet")
     language = repo.get("language") or "N/A"
     emoji = LANG_EMOJI.get(language, DEFAULT_EMOJI)
     return f"| [{emoji} {name}]({url}) | {description} | {language} |"
