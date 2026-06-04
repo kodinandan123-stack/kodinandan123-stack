@@ -8,7 +8,7 @@ USERNAME = os.environ.get("GITHUB_USERNAME", "kodinandan123-stack")
 # Repos to always skip (profile repo itself + empty/non-project repos)
 SKIP_REPOS = {USERNAME, "daily-log"}
 
-# Custom descriptions for repos that don't have one set on GitHub
+# Custom descriptions for each project
 CUSTOM_DESCRIPTIONS = {
     "Chat-App": "Real-time chat application",
     "Weather-App": "Live weather data fetcher",
@@ -16,18 +16,22 @@ CUSTOM_DESCRIPTIONS = {
     "Personal-Finance-Tracker": "Income, expense & savings tracker",
 }
 
-# Emoji map by language
-LANG_EMOJI = {
-    "Python": "🐍",
-    "JavaScript": "💛",
-    "TypeScript": "🔷",
-    "HTML": "🌐",
-    "CSS": "🎨",
-    "Java": "☕",
-    "C++": "⚙️",
-    "C": "⚙️",
-    "Shell": "🖥️",
-    "Jupyter Notebook": "📓",
+# Full tech stack for each project
+# When you start a new project, just add a line here like:
+# "My-New-Repo": "React, Node.js, MongoDB",
+TECH_STACK = {
+    "Chat-App": "HTML, CSS, JS, Node.js, Socket.io",
+    "Weather-App": "HTML, CSS, JS, REST API",
+    "Task-Manager-App": "HTML, CSS, JS, Node.js, Express",
+    "Personal-Finance-Tracker": "React, Node.js, Express, MongoDB, Chart.js",
+}
+
+# Emoji map by tech/language
+TECH_EMOJI = {
+    "Chat-App": "💬",
+    "Weather-App": "🌤️",
+    "Task-Manager-App": "✅",
+    "Personal-Finance-Tracker": "💰",
 }
 
 DEFAULT_EMOJI = "📁"
@@ -42,10 +46,10 @@ def get_repos():
 def build_row(repo):
     name = repo["name"]
     url = repo["html_url"]
-    description = repo.get("description") or CUSTOM_DESCRIPTIONS.get(name, "No description yet")
-    language = repo.get("language") or "N/A"
-    emoji = LANG_EMOJI.get(language, DEFAULT_EMOJI)
-    return f"| [{emoji} {name}]({url}) | {description} | {language} |"
+    description = CUSTOM_DESCRIPTIONS.get(name) or repo.get("description") or "No description yet"
+    tech = TECH_STACK.get(name) or repo.get("language") or "N/A"
+    emoji = TECH_EMOJI.get(name, DEFAULT_EMOJI)
+    return f"| [{emoji} {name}]({url}) | {description} | {tech} |"
 
 def update_readme(rows_markdown):
     with open("README.md", "r", encoding="utf-8") as f:
