@@ -69,10 +69,10 @@
 <!-- PROJECTS:START -->
 | Project | Description | Tech |
 |---|---|---|
-| [💛 Personal-Finance-Tracker](https://github.com/kodinandan123-stack/Personal-Finance-Tracker) | Income, expense & savings tracker | JavaScript |
-| [🎨 Task-Manager-App](https://github.com/kodinandan123-stack/Task-Manager-App) | Task organizer with CRUD | CSS |
-| [🌐 Weather-App](https://github.com/kodinandan123-stack/Weather-App) | Live weather data fetcher | HTML |
-| [💛 Chat-App](https://github.com/kodinandan123-stack/Chat-App) | Real-time chat application | JavaScript |
+| [💰 Personal-Finance-Tracker](https://github.com/kodinandan123-stack/Personal-Finance-Tracker) | Income, expense & savings tracker | React, Node.js, Express, MongoDB, Chart.js |
+| [✅ Task-Manager-App](https://github.com/kodinandan123-stack/Task-Manager-App) | Task organizer with CRUD | HTML, CSS, JS, Node.js, Express |
+| [🌤️ Weather-App](https://github.com/kodinandan123-stack/Weather-App) | Live weather data fetcher | HTML, CSS, JS, REST API |
+| [💬 Chat-App](https://github.com/kodinandan123-stack/Chat-App) | Real-time chat application | HTML, CSS, JS, Node.js, Socket.io |
 <!-- PROJECTS:END -->
 
 > 🚧 More AI/ML projects coming soon as part of my MSc coursework!
