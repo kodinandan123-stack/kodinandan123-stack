@@ -95,7 +95,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/kodinandan123-stack/Personal-Finance-Tracker?label=Last%20Commit%20%28Finance%20Tracker%29&style=for-the-badge&color=green&logo=github" />
+  <img src="https://img.shields.io/badge/Last%20Commit%20(Finance%20Tracker)-1%20day-green?style=for-the-badge&logo=github" />
 </p>
 
 ---
