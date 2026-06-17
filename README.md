@@ -73,6 +73,7 @@
 | [✅ Task-Manager-App](https://github.com/kodinandan123-stack/Task-Manager-App) | Task organizer with CRUD | HTML, CSS, JS, Node.js, Express |
 | [🌤️ Weather-App](https://github.com/kodinandan123-stack/Weather-App) | Live weather data fetcher | HTML, CSS, JS, REST API |
 | [💬 Chat-App](https://github.com/kodinandan123-stack/Chat-App) | Real-time chat application | HTML, CSS, JS, Node.js, Socket.io |
+| 🏠 [archiverse-ai](https://github.com/kodinandan123-stack/archiverse-ai) | AI residential design platform (blueprint → design vision pipeline) | Next.js, FastAPI, PyTorch, ONNX, PostgreSQL |
 <!-- PROJECTS:END -->
 
 > 🚧 More AI/ML projects coming soon as part of my MSc coursework!
