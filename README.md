@@ -69,6 +69,7 @@
 <!-- PROJECTS:START -->
 | Project | Description | Tech |
 |---|---|---|
+| [📁 hybrid-rag](https://github.com/kodinandan123-stack/hybrid-rag) | No description yet | Python |
 | [💰 Personal-Finance-Tracker](https://github.com/kodinandan123-stack/Personal-Finance-Tracker) | Income, expense & savings tracker | React, Node.js, Express, MongoDB, Chart.js |
 | [✅ Task-Manager-App](https://github.com/kodinandan123-stack/Task-Manager-App) | Task organizer with CRUD | HTML, CSS, JS, Node.js, Express |
 | [🌤️ Weather-App](https://github.com/kodinandan123-stack/Weather-App) | Live weather data fetcher | HTML, CSS, JS, REST API |
