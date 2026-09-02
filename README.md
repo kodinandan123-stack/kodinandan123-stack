@@ -96,7 +96,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Last%20Commit%20(Finance%20Tracker)-87%20days-green?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Last%20Commit%20(Finance%20Tracker)-88%20days-green?style=for-the-badge&logo=github" />
 </p>
 
 ---
